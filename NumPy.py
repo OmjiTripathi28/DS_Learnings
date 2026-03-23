@@ -1,16 +1,20 @@
 # Q1
 # Create a null vector of size 10 but the fifth value should be 1.
 import numpy as np
-a = np.zeros(10)
+"""a = np.zeros(10)
 a[4] = 1
 print(a)
-
+"""
 # Q2
 # Ask user to input two numbers a, b.
 # Generate a random array of shape (a, b) and print:
 # 1. The array
 # 2. The average of the array
-
+import random
+a = int(input("enter no. a = "))
+b = int(input("enter no. b = "))
+array = np.random.random([a,b])
+print(array)
 
 # Q3
 # Write a function to create a 2D array with 1 on the border and 0 inside.
@@ -20,6 +24,18 @@ print(a)
 #  [1,0,0,1],
 #  [1,0,0,1],
 #  [1,1,1,1]]
+"""def array():
+   a = int(input("enter a number a = "))
+   b = int(input("enter a number b = "))
+   array = np.zeros(a*b).reshape(a,b)
+   array[0,:] = 1
+   array[:,0] = 1
+   array[a-1, :] = 1
+   array[:,b-1] = 1
+   print(array)
+
+  
+array()"""
 
 
 # Q4
