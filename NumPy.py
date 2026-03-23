@@ -1,10 +1,10 @@
 # Q1
 # Create a null vector of size 10 but the fifth value should be 1.
 import numpy as np
-"""a = np.zeros(10)
+a = np.zeros(10)
 a[4] = 1
 print(a)
-"""
+
 # Q2
 # Ask user to input two numbers a, b.
 # Generate a random array of shape (a, b) and print:
