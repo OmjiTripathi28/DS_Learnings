@@ -24,7 +24,7 @@ print(array)
 #  [1,0,0,1],
 #  [1,0,0,1],
 #  [1,1,1,1]]
-"""def array():
+def array():
    a = int(input("enter a number a = "))
    b = int(input("enter a number b = "))
    array = np.zeros(a*b).reshape(a,b)
@@ -35,7 +35,7 @@ print(array)
    print(array)
 
   
-array()"""
+array()
 
 
 # Q4
