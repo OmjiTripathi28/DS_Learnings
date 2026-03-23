@@ -37,7 +37,7 @@ def array():
   
 array()
 
-""""""
+
 # Q4
 # Create a vector of size 10 with values ranging from 0 to 1 (excluded).
 
