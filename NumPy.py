@@ -45,11 +45,12 @@ print(a)
 # Q5
 # Can you create an identity matrix of shape (3,4)?
 # If yes, write the code.
-
+"""NO, AN IDENTITY MATRIX OF SHAPE (3,4) CANNOT BE MADE"""
 
 # Q6
 # Create a 5x5 matrix with row values ranging from 0 to 4.
-
+b = np.arange(4).reshape(5,5)
+print(b)
 
 # Q7
 # Generate a random integer array (1 to 100) of shape (10,2) representing coordinates.
