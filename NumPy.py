@@ -37,10 +37,10 @@ def array():
   
 array()
 
-
 # Q4
 # Create a vector of size 10 with values ranging from 0 to 1 (excluded).
-
+a = np.arange(0,1,0.1)
+print(a)
 
 # Q5
 # Can you create an identity matrix of shape (3,4)?
