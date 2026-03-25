@@ -49,7 +49,8 @@ print(a)
 
 # Q6
 # Create a 5x5 matrix with row values ranging from 0 to 4.
-b = np.arange(0,5).reshape(5,5)
+b = np.arange(25).reshape(5,5)
+b[1:] = b[0:1]
 print(b)
 
 # Q7
