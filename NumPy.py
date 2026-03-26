@@ -49,3 +49,12 @@ d = np.array([[1, 2], [4, 5], [7, 8]])
 print(d.shape)
 
 
+"""Q8 — Data Type Control
+Create an array: [1, 2, 3]
+👉 Force its datatype to float"""
+f = np.array([[1, 2, 3]])
+print(f.astype(float))
+
+
+"""Q9 — Convert Python List l = [10, 20, 30, 40]
+Convert it into NumPy array and: check dtype check shape"""
