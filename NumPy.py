@@ -18,3 +18,27 @@ c = np.array([1,2.5,3])
 print(c)
 print(c.dtype)
 
+
+"""Q3 — Dimensions Check
+
+Create:
+
+[[1, 2, 3], [4, 5, 6]]
+
+Print: shape ndim size"""
+
+d = np.array([[1, 2, 3], [4, 5, 6]])
+print(d.shape,d.ndim,d.size)
+
+
+
+"""Q4 — 3D Thinking (IMPORTANT 🔥)
+Create a 3D array like:
+[[[1,2],[3,4]], [[5,6],[7,8]]]
+👉 Then print: shape ndim"""
+
+e = np.array([[[1,2],[3,4]], [[5,6],[7,8]]])
+print(e.shape,e.ndim,e.size)
+
+
+
