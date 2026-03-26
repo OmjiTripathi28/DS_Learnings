@@ -41,4 +41,11 @@ e = np.array([[[1,2],[3,4]], [[5,6],[7,8]]])
 print(e.shape,e.ndim,e.size)
 
 
+"""Q7 — Manual Thinking
+Create a 2D array with: 3 rows 2 columns
+👉 Fill with any numbers"""
+
+d = np.array([[1, 2], [4, 5], [7, 8]])
+print(d.shape)
+
 
