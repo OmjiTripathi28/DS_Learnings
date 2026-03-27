@@ -55,6 +55,3 @@ Create an array: [1, 2, 3]
 f = np.array([[1, 2, 3]])
 print(f.astype(float))
 
-
-"""Q9 — Convert Python List l = [10, 20, 30, 40]
-Convert it into NumPy array and: check dtype check shape"""
