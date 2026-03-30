@@ -92,3 +92,48 @@ print(np.eye(4))
 #q5
 
 print(print(np.random.randint(10,50,(2,3))))
+
+"""
+LEVEL 2 PRACTICE (IMPORTANT — THINK HARD)
+Q1
+a = np.array([1,2,3])
+b = np.array([10,20,30])
+
+👉 Add them
+
+Q2 🔥
+a = np.array([[1],[2],[3]])
+b = np.array([10,20,30])
+
+👉 Predict:
+
+output
+shape
+Q3 🔥 (Conceptual)
+
+Why does this work?
+
+(3,1) + (3,)
+Q4
+
+Multiply:
+
+a = np.array([[1,2,3]])
+b = np.array([[10],[20],[30]])
+
+👉 What is shape?
+
+Q5 💀 (Brain Test)
+a = np.array([[1,2],[3,4]])
+b = np.array([10,20,30])
+
+👉 Will this work? WHY?
+"""
+
+#1
+import numpy as np
+a = np.array([[1,2],[3,4]])
+b = np.array([10,20,30])
+print(a+b)
+
+#2
